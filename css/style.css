@@ -45,12 +45,22 @@ p {
   line-height: 20px;
 }
 
-button{
+.download-buttons {
   padding: 9px;
   border-radius: 50px;
   border: none;
   color: white;
   background-color: #7289da;
+}
+
+.download-buttons.left-button-top{
+  background-color: white;
+  color: black;
+}
+
+.download-buttons.right-button-top{
+  background-color: black;
+  border: 1px solid black;
 }
 
 .titles {
