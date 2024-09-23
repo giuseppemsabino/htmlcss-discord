@@ -43,6 +43,7 @@ body {
 
 .titles{
   font-size: 2rem;
+  font-weight: bolder;
 }
 
 .page-header {
@@ -122,6 +123,7 @@ body {
 .main-section .container {
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .samll-square-section .container {
@@ -130,20 +132,37 @@ body {
 
 .col-big {
   width: 60%;
-  height: 300px;
+  height: 400px;
   border: 1px dashed black;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: pink;
 }
+
+.study-group-img{
+  background-image: url(../img/item1.svg);
+  background-size: cover;
+}
+
+.just-chill-img{
+  background-image: url('../img/item2.svg');
+  background-size: cover;
+}
+
+.coach-img{
+  background-image: url('../img/item3.svg');
+  background-size: cover;
+}
 .col-small {
   width: 40%;
-  height: 300px;
+  height: 400px;
   border: 1px dashed black;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: blue;
 }
+
+
 
 .big-square {
   width: 100%;
