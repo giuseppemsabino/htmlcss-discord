@@ -41,6 +41,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+  line-height: 20px;
+}
+
 .titles{
   font-size: 2rem;
   font-weight: bolder;
@@ -79,7 +83,7 @@ body {
 .small-square {
   width: 80%;
   height: 300px;
-  border: 1px dashed black;
+ /* border: 1px dashed black;*/
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -127,7 +131,7 @@ body {
 }
 
 .samll-square-section .container {
-  background-color: darkblue;
+  background-color: transparent;
 }
 
 .col-big {
@@ -136,12 +140,21 @@ body {
   border: 1px dashed black;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: pink;
+  background-color: transparent;
+  
 }
 
 .study-group-img{
   background-image: url(../img/item1.svg);
   background-size: cover;
+}
+.container-study-group{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 130px;
 }
 
 .just-chill-img{
@@ -159,7 +172,8 @@ body {
   border: 1px dashed black;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: blue;
+  background-color: transparent;
+  display: flex;
 }
 
 
