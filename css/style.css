@@ -148,7 +148,7 @@ p{
   background-image: url(../img/item1.svg);
   background-size: cover;
 }
-.container-study-group{
+.container-text{
   display: flex;
   justify-content: center;
   flex-direction: column;
