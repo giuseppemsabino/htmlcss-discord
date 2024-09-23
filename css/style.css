@@ -45,6 +45,8 @@ p {
   line-height: 20px;
 }
 
+
+
 .download-buttons {
   padding: 9px;
   border-radius: 50px;
@@ -75,7 +77,7 @@ p {
 .logo-container {
   display: flex;
   justify-content: space-between;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   align-items: center;
   height: 60px;
 }
@@ -86,7 +88,7 @@ p {
 
 .header-list {
   width: 109%;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 
 .nav-list{
@@ -100,7 +102,7 @@ p {
   justify-content: flex-end;
   
 }
-.login-header > button{
+.download-buttons.login-header{
   background-color: white;
   color: black;
 }
@@ -170,7 +172,7 @@ p {
 .col-big {
   width: 60%;
   height: 400px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -201,7 +203,7 @@ p {
 .col-small {
   width: 40%;
   height: 400px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -211,7 +213,7 @@ p {
 .big-square {
   width: 100%;
   height: 850px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -245,7 +247,7 @@ footer {
 .col-right {
   width: 30%;
   height: 400px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -264,7 +266,7 @@ footer {
 .col-left {
   width: 70%;
   height: 400px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -296,14 +298,14 @@ li{
 
 .col-items {
   width: 100%;
-  border: 1px dashed white;
+  /* border: 1px dashed white; */
 }
 
 .footer-container {
-  background-color: #7ffdd5;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   align-items: center;
   height: 65px;
   width: 100%;
@@ -311,7 +313,7 @@ li{
 
 .items-footer {
   background-color: transparent;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   padding: 5px;
 }
 
